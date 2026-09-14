@@ -1,0 +1,12 @@
+name = "rakuten-room-worker"
+main = "worker/index.js"
+compatibility_date = "2026-09-13"
+
+[vars]
+ALLOWED_ORIGIN = "https://littlesamuraiworks-cloud.github.io"
+
+[observability]
+enabled = true
+
+[secrets]
+required = ["RAKUTEN_APP_ID", "RAKUTEN_ACCESS_KEY"]
